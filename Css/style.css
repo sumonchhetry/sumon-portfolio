@@ -1,5 +1,5 @@
 /* Google font import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 
 /* Basic Setup */
@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color:  rgba(121, 101, 85, 0.7);
+    background-color:  rgba(0, 0, 0);
     line-height: 1.6;
 }
 
@@ -28,13 +28,9 @@ h1, h2, h3, p {
     color: rgb(255, 255, 255);
 }
 
-h1 {
+/* h1 {
     margin-left: 20px;
     font-size: 35px;
-}
-
-/* img {
-    object-fit: cover;
 } */
 
 .btn {
@@ -54,7 +50,7 @@ h1 {
     justify-content: space-between;
     text-align: center;
     height: 80px;
-    background-color:rgba(121, 101, 85, 0.7);
+    background-color: crimson;
 }
 
 #navbar .logo {
@@ -64,6 +60,7 @@ h1 {
 #navbar ul {
     display: flex;
     font-size: 20px;
+    font-weight: 500;
 }
 
 #navbar li {
@@ -82,7 +79,7 @@ h1 {
 /* Header / Banner */
 .hero {
     background: url('../img/pexels-micah-boerma-1008739.jpg') no-repeat center center/cover;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     height: 100vh;
     position: relative;
 }
@@ -93,11 +90,22 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 85%;
+    height: 100%;
 }
 
 .hero .content h1 {
-    font-size: 55px;
+    font-size: 75px;
+}
+
+.hero .content h2 {
+    font-size: 150px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.hero .content h3 {
+    font-size: 30px;
+    color: white;
 }
 
 .hero .content p {
@@ -116,7 +124,7 @@ h1 {
 }
 
 .hero * {
-    z-index: 10;
+    z-index: 2;
 }
 
 /* ABOUT */
@@ -129,6 +137,7 @@ h1 {
 #about img {
     height: 600px;
     width: 600px;
+    border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgb(255, 255, 255);
 }
@@ -153,7 +162,7 @@ h1 {
 }
 
 #contact .row img {
-    width: 600px;
+    width: 1024px;
     height: 500px;
     border: 3px solid rgb(255, 255, 255);
 }
