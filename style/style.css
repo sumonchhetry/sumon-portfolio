@@ -22,9 +22,14 @@ a {
 #navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1080px;
   margin: auto;
   padding: 1rem 0;
+}
+
+.logo {
+  font-size: 26px;
 }
 
 .menu {
@@ -33,4 +38,29 @@ a {
 
 .menu li {
   padding: 0 2.4rem;
+  font-size: 18px;
+}
+
+#hero {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+}
+
+#hero .content {
+  p {
+    font-size: 60px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+}
+
+#hero img {
+  height: 450px;
+  border-radius: 10% 15%;
 }
