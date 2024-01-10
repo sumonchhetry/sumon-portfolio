@@ -7,3 +7,5 @@ a protfolio website using html, css and js
 navbar done
 
 # hero section done
+
+# contact section added
